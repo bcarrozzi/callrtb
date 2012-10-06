@@ -3,9 +3,13 @@
 <html>
 	<head>
 		<title>AllPhoneLeads - Advertiser Sign Up</title>
+		<!--Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet"
 	</head>
 	<body>
 		<h1><b><center>Advertiser Sign Up</center></b></h1>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 			<br />
 			<br />
 		<form action="http://www.xyz.com" method="POST">
