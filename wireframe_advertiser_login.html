@@ -4,7 +4,7 @@
 	<head>
 		<title>AllPhoneLeads - Advertiser Sign Up</title>
 		<!--Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet"
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"
 	</head>
 	<body>
 		<h1><b><center>Advertiser Sign Up</center></b></h1>
@@ -12,29 +12,146 @@
     <script src="js/bootstrap.min.js"></script>
 			<br />
 			<br />
-		<form action="http://www.xyz.com" method="POST">
-			<p>
-		First Name: 		<input type="text" name="first_name" value=""/><br />
-		Last Name: 			<input type="text" name="last_name" value=""/><br />
-		Company Title:		<input type="text" name="company_title" value=""/><br />
-		Company Name: 		<input type="text" name="company_name" value=""/><br />
-		Company URL: 		<input type="text" name="company_url" value=""/><br />
-		Email: 				<input type="text" name="email" value=""/><br />
-		Password: 			<input type="text" name="password" value=""/><br />
-		Confirm Password:	<input type="text" name="confirm_password" value=""/><br />
-		Phone Number:		<input type="text" name="phone_number" value=""/><br />
-		Address:			<input type="text" name="address" value=""/><br />
-		City:				<input type="text" name="city" value=""/><br />
-		State/Province:		<select name="state_province" value="">
-								<option value="arizona">Arizona</option>
-								<option value="alaska">Alaska</option>
-								<option value="california">California</option>
-							</select><br />
-		Postal/Zip:			<input type="text" name="postal_zip" value=""/><br />
-		Country:			<input type="text" name="country" value=""/><br />
-		
-		<input type="submit" value="Submit" />
-			</p>
+		<form class="form-horizontal">
+			<div class="control-group">
+				<label class="control-label" for="inputFirstname">First Name</label>
+				<div class="controls">
+					<input type="text" id="inputFirstname" placeholder="First Name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="inputLastname">Last Name</label>
+				<div class="controls">
+					<input type="text" id="inputLastname" placeholder="Last Name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="inputCompanytitle">Company Title</label>
+				<div class="controls">
+					<input type="text" id="inputCompanytitle" placeholder="Company Title">
+				</div>
+			</div>			
+			<div class="control-group">
+				<label class="control-label" for="inputCompanyname">Company Name</label>
+				<div class="controls">
+					<input type="text" id="inputCompanyname" placeholder="Company Name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="inputCompanyurl">Company URL</label>
+				<div class="controls">
+					<input type="text" id="inputCompanyurl" placeholder="Company URL">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="inputEmail">Email</label>
+				<div class="controls">
+					<input type="text" id="inputEmail" placeholder="Email">
+				</div>
+			</div>						
+				<div class="control-group">
+					<label class="control-label" for="inputPassword">Password</label>
+					<div class="controls">
+						<input type="text" id="inputPassword" placeholder="Password">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="inputConfirmpassword">Confirm Password</label>
+					<div class="controls">
+						<input type="text" id="inputConfirmpassword" placeholder="Confirm Password">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="inputPhonenumber">Phone Number</label>
+					<div class="controls">
+						<input type="text" id="inputPhonenumber" placeholder="Phone Number">
+					</div>
+				</div>			
+				<div class="control-group">
+					<label class="control-label" for="inputAddress">Address</label>
+					<div class="controls">
+						<input type="text" id="inputAddress" placeholder="Address">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="inputCity">City</label>
+					<div class="controls">
+						<input type="text" id="inputCity" placeholder="City">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="inputState">State/Province</label>
+					<div class="controls">
+						<select>
+						  <option>Alabama</option>
+						  <option>Alaska</option>
+						  <option>Arizona</option>
+						  <option>Arkansas</option>
+						  <option>California</option>
+						  <option>Colorado</option>
+						  <option>Connecticut</option>
+						  <option>Delaware</option>
+						  <option>Florida</option>
+						  <option>Georgia</option>
+						  <option>Hawaii</option>
+						  <option>Idaho</option>
+						  <option>Illinois</option>
+						  <option>Indiana</option>
+						  <option>Iowa</option>
+						  <option>Kansas</option>
+						  <option>Kentucky</option>
+						  <option>Louisiana</option>
+						  <option>Maine</option>
+						  <option>Maryland</option>
+						  <option>Massachusetts</option>
+						  <option>Michigan</option>
+						  <option>Minnesota</option>
+						  <option>Mississippi</option>
+						  <option>Missouri</option>
+						  <option>Montana</option>
+						  <option>Nebraska</option>
+						  <option>Nevada</option>
+						  <option>New Hampshire</option>
+						  <option>New Jersey</option>
+						  <option>New Mexico</option>
+						  <option>New York</option>
+						  <option>North Carolina</option>
+						  <option>North Dakota</option>
+						  <option>Ohio</option>
+						  <option>Oklahoma</option>
+						  <option>Oregon</option>
+						  <option>Pennsylvania</option>
+						  <option>Rhode Island</option>
+						  <option>South Carolina</option>
+						  <option>South Dakota</option>
+						  <option>Tennessee</option>
+						  <option>Texas</option>
+						  <option>Utah</option>
+						  <option>Vermont</option>
+						  <option>Virginia</option>
+						  <option>Washington</option>
+						  <option>West Virginia</option>
+						  <option>Wisconsin</option>
+						  <option>Wyoming</option>
+						</select>
+					</div>
+				</div>	
+				<div class="control-group">
+					<label class="control-label" for="inputPostal">Postal/Zip</label>
+					<div class="controls">
+						<input type="text" id="inputPostal" placeholder="Postal/Zip">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="inputCountry">Country</label>
+					<div class="controls">
+						<select>
+						  <option>United States</option>
+						  <option>Canada</option>
+						</select>
+					</div>
+				</div>
+				 <button type="submit" class="btn">Sign in</button>
 		</form>
 	</body>
 </html>
