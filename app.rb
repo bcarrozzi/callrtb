@@ -1,4 +1,4 @@
 require 'sinatra'
-get '/wireframe_adveritser_login.erb' do
-    erb :wireframe_advertiser_login
+get '/advertiser_login' do
+    erb :advertiser_login
 end
