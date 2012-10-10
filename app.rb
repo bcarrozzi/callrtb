@@ -1,5 +1,4 @@
 require 'sinatra'
-get '/' do
-    @name = "George"
-    erb :index
+get '/wireframe_adveritser_login.erb' do
+    erb :wireframe_advertiser_login
 end
