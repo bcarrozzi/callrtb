@@ -1,5 +1,5 @@
 require 'sinatra'
-get '/advertiser_login' do
+get '/advertiser_signup' do
     erb :advertiser_login
 end
 
