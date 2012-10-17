@@ -1,0 +1,49 @@
+Advertiser  
+  first_name
+  last_name
+  company_name
+  url
+  email
+  password
+  phone
+  address
+  city
+  state
+  zip
+  country 
+Publisher
+   first_name
+   last_name
+   company_name
+   url
+   email
+   password
+   phone
+   address
+   city
+   state
+   zip
+   country
+Campaign
+  id
+  category_name
+  category_id
+  phone
+  name
+  hours
+  region
+  bid
+  bid_position
+  bid_estimate
+  min_bid
+  status
+Administrator
+  first_name
+  last_name
+  email
+  password
+  
+   
+   
+  
+  
